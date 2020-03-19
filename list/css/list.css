@@ -1,0 +1,49 @@
+.mui-bar-nav>a{
+    color: #000;
+}
+.mui-bar-nav>a:active{
+    color: #ccc;
+}
+input[type=search]{
+    margin: 0;
+    background-color: #fff;
+}
+.mui-input-row{
+ border-radius: 0.5rem;
+ border: 1px solid #dcd9d9;
+ display: flex;
+}
+.mui-content>.mui-card:first-child{
+    margin: 0px;
+    padding: 7px;
+}
+.mui-input-row .mui-input-clear~.mui-icon-clear, .mui-input-row .mui-input-password~.mui-icon-eye, .mui-input-row .mui-input-speech~.mui-icon-speech{top: 0;line-height: 38px;}
+.mui-icon{line-height: 34px;    padding: 0 0.3rem;font-size: 17px;color: #000;}
+.item-list{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    border-top:1px solid #ece8e8;
+}
+.item-list>div{
+    color: rgb(153, 51, 0);
+    font-size: 14px;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+}
+.item-list>div:nth-child(1){
+    border-right:1px solid #ece8e8;
+
+}
+.searchInput{
+    box-shadow: none;
+}
+.mui-h5, h5{
+    white-space: nowrap;
+}
+.color-black{
+    color: #000;
+}
